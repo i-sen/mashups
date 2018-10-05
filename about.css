@@ -1,0 +1,49 @@
+
+
+@font-face {
+    font-family: "myFirstFont";
+    src:url("bitsindiancalligra-Regular.ttf");
+}
+
+.headerstyle {
+
+	font-size: 5em;
+	font-family: myFirstFont;
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+	text-shadow: 0 0 30px #fff, 0 0 10px #fff;
+	color: white;
+
+}
+
+.headerstyle2 {
+	font-size: 3em;
+	font-family: myFirstFont;
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+	text-shadow: 0 0 30px #fff, 0 0 10px #fff;
+	color: white;
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+
+}
+
+ h1 {
+	text-align: center;
+	font-family: myFirstFont;
+	opacity: 1;
+	font-size: 4em;
+	color: white;
+}
+
+
+h2 {
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	opacity: 1;
+	font-size: 2em;
+	color: white;
+
+}
+

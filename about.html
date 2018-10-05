@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+		<title>bollywood movies</title> 
+		<link rel="stylesheet" type="text/css" href="about.css" />
+	</head>
+
+	<body>
+		<body class = "bg" background ="http://i298.photobucket.com/albums/mm247/Burtonite/filmgrain.gif">
+		<div class="headerstyle">पिक्चर अभी बाकी है... 
+		</div>
+		<div class="headerstyle2">about &nbsp;
+	    <a href="index.html" target="_parent">home</a>
+	    </div>   
+      		
+  		<h1>Description</h1>
+  			<h2> The idea behind पिक्चर अभी बाकी है... (The movie isn't over yet...) was to bring everything a person needs to decide whether to watch a movie to one place. The Hindi title is a famous line from a number of Bollywood movies, and is iconic in the Bollywood industry in the same way 'Frankly, my dear, I don't give a damn.' (Gone With The Wind) or 'I'll make him an offer he can't refuse' (The Godfather) are iconic in Hollywood cinema. You click on the genre that interests you, and a Bollywood movie name, poster, trailer, synopsis and rating pops up on the screen. There is an element of randomness to what movies you get, so you can keep clicking a specific genre until you get something that interests you! </h2>
+  		<h1>Motivation + Process </h1>
+  			<h2>For me typically, when I want to watch a movie, I google it and pull up the Wikipedia page, the YouTube trailer and a couple of reviews all in different tabs. To streamline this experience, I put it all in one page, and added the element of surprise with the random movie generation based on genre. The idea to focus on Bollywood came about when my parents and I couldn't decide what movie we wanted to watch, and all the online random recomendation websites (<a href = "http://www.suggestmemovie.com/">SuggestMeMovie</a>, <a href = "https://www.randomlists.com/random-movies">RandomListsMovies</a>) focused on western media. This website makes the process of getting all the movie details easier, and also caters to the huge audience that loves Bollywood and is indecisive. I first worked on the movie databse,  filtering for Hindi language movies, and used it to pull up data for the movie title, poster, synopsis and rating. I then fed the title into the YouTube search API and came up with the video ID for the movie trailer. Finally, I embedded the trailer into the website using the embed code that is mostly common to YouTube videos aside from the video ID.</h2>
+  		<h1> Design decisions </h1>
+  			<h2> During user testing, I was told that some of the fonts were hard to read. So, instead of using the same font throughout the website, I changed the synopsis font to something that was easier to read but still matched the aesthetic I was trying to achieve. My landing page uses a film grain gif as a background, because I wanted to evoke the feeling of watching an old black and white movie at the cinema, which is also why the text on the landing page is white and glowy. I chose to make the background change to the movie poster each time the button is clicked to create the sense of a personalized website for the movie that was generated. I also decided to write the name of the movie generated in English script twice at the the top of the page as a counter measure against times when the poster and trailer both are in devanagari script. I recived feedback in class that this was a bit repetitive, so I removed the title from above the trailer. I also removed the padding from the shaded boxes so they are all aligned vertically. For the Favicon, I chose a movie camera emoji.</h2>
+  		<h1> Data resources </h1>
+  			<h2> For this project I used the<a href = "https://www.themoviedb.org/documentation/api"> The Movie DB API</a> and the <a href = "https://developers.google.com/youtube/"> YouTube API</a>. The fonts used are <a href ="https://www.dafont.com/bits-indian-calligra.font">Bits Indian Calligra</a> and <a href ="https://fonts.googleapis.com/css?family=Berkshire+Swash">Berkshire Swash</a>. For the favicon, I downloaded a movie camera emoji from <a href = "https://favicon.io/emoji-favicons/movie-camera/"> Favicon.io</a>. I used this <a href = "https://css-tricks.com/left-and-right/"> CSSTricks tutorial</a> to create the left and right floating divs. </h2>
+  		<h1> Major challenges </h1>
+  			<h2> Some of the major challenges I faced were figuring out how to get a random movie, as the movie api did not have a randomzing function. So, I used the math function in jquery to call a random page and random result on that page. I also struggled with incorporating the YouTube API into the page, and putting all my genres into one function instead of multiple functions, which after a lot of help, I was able to get working fine. (Thanks so much Craig!!)
+  		<h1> Next steps </h1>
+  			<h2> To take this project further, I would love to incorporate more choices for the user, for example choosing the genre, years in which the movie was released and main actor/actress in the movie. It would also be great to add an element showing where the movie is currently being screened, if it is still in theatres.</h2>
+		
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>

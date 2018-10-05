@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: "myFirstFont";
+    src:url("bitsindiancalligra-Regular.ttf");
+}
+
+
+p {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 2em;
+}
+
+
+.wrapper{
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: myFirstFont;
+  color: white;
+}
+
+
+#results1{
+   float: left;
+  width: 50%;
+  font-family: myFirstFont;
+  font-size: 3em;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  text-align: center;
+}
+
+
+#results2{
+    float:right;
+    width: 50%;
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    text-align: center;
+
+}​
+
+
+.resultsstylemovie{
+	text-align: center;
+	font-family: myFirstFont;
+	opacity: 1;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+
+
+}
+
+
+.headerstyle{
+
+	font-size: 5em;
+	font-family: myFirstFont;
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+	text-shadow: 0 0 30px #fff, 0 0 10px #fff;
+	color: white;
+
+}
+
+
+.headerstyle2{
+	font-size: 3em;
+	font-family: myFirstFont;
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+	text-shadow: 0 0 30px #fff, 0 0 10px #fff;
+	color: white;
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+img {
+    position: relative;
+    color: white;
+    width:  400px;
+    height: 550px;
+    background-position: 50% 50%;
+    }
+
+
+ h1 {
+	text-align: center;
+	font-family: myFirstFont;
+	opacity: 1;
+	font-size: 4em;
+	color: white;
+
+}
+
+
+#buttonstyle, #buttondrama, #buttonromance, #buttonaction, #buttoncomedy, #buttonhorror, #buttonthriller {
+	text-align: center;
+	font-family: myFirstFont;
+	color: white;
+	background-color: Transparent;
+  	border: none;
+ 	 cursor:pointer;
+  	text-shadow: 0 0 30px #fff, 0 0 10px #fff;
+  	font-size: 1.5em;
+  	outline:none;
+	
+}
+
+#buttonstyle {
+background-color: rgba(0,0,0,0.65);
+
+}
+
+
+body {
+    
+    background-repeat: no-repeat;
+     background-size: cover;
+
+}
